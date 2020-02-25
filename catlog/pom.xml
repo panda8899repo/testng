@@ -33,6 +33,13 @@
  </dependency>
 
   </dependencies>
+ <distributionManagement>
+    <snapshotRepository>
+	<id>nexus</id>
+	<name>My Nexus Repository</name>
+	<url>http://54.224.187.105:8081/repository/nexusrepo/</url>
+    </snapshotRepository>
+ </distributionManagement>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
