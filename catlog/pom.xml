@@ -34,12 +34,12 @@
 
   </dependencies>
  <distributionManagement>
-    <snapshotRepository>
+     <repository>
 	<id>nexus</id>
-	<name>Nexusrepo</name>
+	<name>Mynexus</name>
 	<url>http://54.224.187.105:8081/repository/newrepo/</url>
-    </snapshotRepository>
- </distributionManagement>
+     </repository>
+  </distributionManagement>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
