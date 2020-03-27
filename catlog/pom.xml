@@ -34,13 +34,12 @@
 
   </dependencies>
  <distributionManagement>
-     <repository>
-	<id>nexus</id>
-	<name>Mynexus</name>
-	<url>http://54.224.187.105:8081/repository/newrepo/</url>
-     </repository>
-  </distributionManagement>
-
+    <repository>
+        <id>central</id>
+        <name>master.example.com-releases</name>
+        <url>http://18.212.114.255:8081/artifactory/libs-release</url>
+    </repository>
+</distributionManagement>
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
