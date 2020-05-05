@@ -18,5 +18,7 @@ public class AppTest
     @Test
     public void unitLevel1() {
         System.out.println("testClass: Unit level1 testing");
+        App app = new App();
+        app.show();
     }
 }
