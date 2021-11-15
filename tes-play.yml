@@ -1,0 +1,6 @@
+---
+- hosts: 192.168.56.11
+  become: true
+  remote_user: tomcat
+  tasks:
+    command: echo "testing playbook"
