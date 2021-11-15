@@ -3,4 +3,6 @@
   become: true
   remote_user: tomcat
   tasks:
-    command: echo "testing playbook"
+    yum: 
+      name: vsftpd
+      state: latest
