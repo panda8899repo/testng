@@ -3,6 +3,7 @@
   become: true
   remote_user: tomcat
   tasks:
-    yum: 
-      name: vsftpd
-      state: latest
+    - name: install vsftpd
+      yum: 
+        name: vsftpd
+        state: latest
